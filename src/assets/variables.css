@@ -1,0 +1,10 @@
+:root {
+  /* colors */
+  --black: #1c1e26;
+  --primary-color: #a54670;
+  --gray: #6b7280;
+
+  /* fonts */
+  --main-font: "Barlow Condensed";
+  --content-font: "Montserrat";
+}

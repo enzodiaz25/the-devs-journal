@@ -1,0 +1,62 @@
+h1 {
+  font-size: 40px;
+  color: var(--primary-color)
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+p,
+span {
+  font-size: 20px;
+}
+
+p,
+span,
+h1,
+h2,
+h3,
+h4,
+a {
+  font-family: "Barlow Condensed";
+}
+
+time {
+  font-family: "Montserrat";
+}
+
+p, span, a {
+  color: var(--gray);
+}
+
+h1 {
+  color: var(--black)
+}
+
+@media (min-width: 960px) {
+  .container-md {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 1140px) {
+  .container-lg {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1140px) {
+  .container-xl {
+    max-width: 1140px;
+  }
+}
+
+[class^="container"].center {
+  margin: 0 auto;
+}
+
+.link {
+  text-decoration: none;
+}

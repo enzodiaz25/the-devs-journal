@@ -1,0 +1,24 @@
+.article-card {
+  box-shadow: 0 0 6px 1px rgb(28, 30, 38, 0.13);
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  transition: all 0.2s ease-in-out;
+}
+
+.article-card:hover {
+  transform: scale(1.02);
+}
+
+.article-card__category {
+  color: var(--primary-color);
+}
+
+.article-card__title {
+  margin: 15px 0;
+  color: var(--black)
+}
+
+.article-card__summary {
+  margin: 0;
+}

@@ -1,0 +1,47 @@
+.home-header {
+  display: flex;
+  gap: 50px;
+  margin: 80px 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-header__hero {
+  max-width: 545px;
+  text-align: center;
+}
+
+.home-header__title {
+  font-size: 60px;
+  margin: 10px 0;
+  font-weight: 700;
+}
+
+.home-header__sub-heading {
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+
+.home-header__image {
+  display: none;
+}
+
+.home-header__tooltip {
+  /* Override vendor's tooltip background */
+  background-color: var(--black) !important;
+  font-family: "Montserrat";
+}
+
+@media (min-width: 768px) {
+  .home-header {
+    justify-content: space-between;
+  }
+
+  .home-header__hero {
+    text-align: left;
+  }
+
+  .home-header__image {
+    display: block;
+  }
+}

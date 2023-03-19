@@ -1,0 +1,16 @@
+.blog-article {
+    margin-top: 100px;
+}
+
+.blog-article__time {
+    display: block;
+    margin-bottom: 40px;
+    font-family: var(--content-font);
+}
+
+.blog-article__content p {
+    font-family: "Montserrat";
+    font-size: 16px;
+    line-height: 32px;
+    margin: 20px 0;
+}

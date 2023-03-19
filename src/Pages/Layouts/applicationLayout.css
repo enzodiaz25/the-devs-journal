@@ -1,0 +1,53 @@
+.app-layout__overlay-background {
+  display: none;
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  z-index: -10;
+  background-image: radial-gradient(
+    circle at 3px 3px,
+    #1c1e26 3px,
+    transparent 0
+  );
+  background-size: 25px 25px;
+  box-shadow: inset -2px 0px 0px 15px rgb(255 255 255);
+  margin: 0;
+  opacity: 10%;
+}
+
+.app-layout__overlay-background--top-left {
+  top: 0;
+  left: 0;
+}
+
+.app-layout__overlay-background--middle-right {
+  right: 0;
+  bottom: 25%;
+}
+
+.app-layout__overlay-background--bottom-left {
+  left: 0;
+  bottom: -200px;
+}
+
+@media (min-width: 576px) {
+  .app-layout__overlay-background {
+    display: block;
+  }
+}
+.app-layout {
+  backdrop-filter: blur(5px);
+  padding: 18px;
+}
+
+@media (min-width: 576px) {
+  .app-layout {
+    padding: 0 30px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .app-layout {
+    padding: 0 80px;
+  }
+}
