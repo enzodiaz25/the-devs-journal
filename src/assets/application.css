@@ -1,3 +1,7 @@
+body {
+  background-color: var(--body-bg);
+}
+
 h1 {
   font-size: 40px;
   color: var(--primary-color)
@@ -19,8 +23,10 @@ h1,
 h2,
 h3,
 h4,
-a {
+a,
+time {
   font-family: "Barlow Condensed";
+  color: var(--font-color)
 }
 
 time {
@@ -31,9 +37,6 @@ p, span, a {
   color: var(--gray);
 }
 
-h1 {
-  color: var(--black)
-}
 
 @media (min-width: 960px) {
   .container-md {

@@ -6,13 +6,15 @@ export default function HomePage() {
   return (
     <div>
       <HomeHeader />
-      <BlogArticleCard className="home-page__article-card" />
-      <BlogArticleCard
-        title="😻️  Lorem ipsum dolor sit amet"
-        className="home-page__article-card"
-      />
-      <BlogArticleCard className="home-page__article-card" />
-      <BlogArticleCard className="home-page__article-card" />
+      <section className="home-page__blog-section">
+        <BlogArticleCard className="home-page__article-card" />
+        <BlogArticleCard
+          title="😻️  Lorem ipsum dolor sit amet"
+          className="home-page__article-card"
+        />
+        <BlogArticleCard className="home-page__article-card" />
+        <BlogArticleCard className="home-page__article-card" />
+      </section>
     </div>
   );
 }

@@ -1,3 +1,19 @@
 .home-page__article-card {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
+}
+
+.home-page__blog-section {
+  margin-bottom: 30px;
+}
+
+@media (min-width: 576px) {
+  .home-page__article-card {
+    margin-bottom: 0px;
+  }
+
+  .home-page__blog-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+  }
 }

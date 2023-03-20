@@ -1,9 +1,9 @@
 .article-card {
-  box-shadow: 0 0 6px 1px rgb(28, 30, 38, 0.13);
+  border: 1px solid var(--article-card-border-color);
   padding: 20px;
   border-radius: 10px;
-  background-color: white;
   transition: all 0.2s ease-in-out;
+  cursor: pointer;
 }
 
 .article-card:hover {
@@ -16,9 +16,13 @@
 
 .article-card__title {
   margin: 15px 0;
-  color: var(--black)
+  color: var(--font-color)
 }
 
 .article-card__summary {
   margin: 0;
+}
+
+.article-card__link {
+  text-decoration: none;
 }

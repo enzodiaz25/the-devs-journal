@@ -6,7 +6,7 @@ export default function BlogArticle() {
       <h1>
         This is some interesting text that perfectly summarizes the article
       </h1>
-      <time className="blog-article__time" datetime="2023-03-19T10:30:00">
+      <time className="blog-article__time" dateTime="2023-03-19T10:30:00">
         March 19, 2023
       </time>
       <div className="blog-article__content">

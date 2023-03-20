@@ -3,7 +3,7 @@ import "@fontsource/barlow-condensed/700.css";
 import "react-tooltip/dist/react-tooltip.css";
 import { Link } from "react-router-dom";
 import { Tooltip } from "react-tooltip";
-import HeaderIllustration from "../../assets/images/headerIllustration.svg";
+import { ReactComponent as HeaderIllustration } from "../../assets/images/headerIllustration.svg";
 
 export default function HomeHeader() {
   return (
@@ -31,10 +31,7 @@ export default function HomeHeader() {
         </p>
       </div>
       <div className="home-header__image">
-        <img
-          src={HeaderIllustration}
-          alt="A guy holding a blog post in his hands. He is about to place it over a giant phone screen"
-        />
+        <HeaderIllustration />
       </div>
     </header>
   );

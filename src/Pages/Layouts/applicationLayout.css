@@ -6,11 +6,11 @@
   z-index: -10;
   background-image: radial-gradient(
     circle at 3px 3px,
-    #1c1e26 3px,
+    var(--font-color) 3px,
     transparent 0
   );
   background-size: 25px 25px;
-  box-shadow: inset -2px 0px 0px 15px rgb(255 255 255);
+  box-shadow: inset 0px 0px 0px 0px var(--font-color);
   margin: 0;
   opacity: 10%;
 }

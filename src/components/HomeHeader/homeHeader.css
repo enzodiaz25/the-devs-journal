@@ -27,8 +27,9 @@
 }
 
 .home-header__tooltip {
-  /* Override vendor's tooltip background */
-  background-color: var(--black) !important;
+  /* Override vendor's tooltip colors */
+  background-color: var(--font-color) !important;
+  color: var(--body-bg) !important;
   font-family: "Montserrat";
 }
 
