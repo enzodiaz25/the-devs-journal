@@ -1,4 +1,3 @@
-import "@fontsource/barlow-condensed/500.css";
 import classNames from "classnames";
 import "./blogArticleCard.css";
 import { Link } from "react-router-dom";

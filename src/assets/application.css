@@ -1,3 +1,9 @@
+/* Google fonts */
+/* Barlow condensed - 400, 700 */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Space+Mono&display=swap');
+/* Montserrat - 400 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Space+Mono&display=swap');
+
 body {
   background-color: var(--body-bg);
 }

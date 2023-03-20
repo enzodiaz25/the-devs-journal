@@ -1,5 +1,4 @@
 import "./homeHeader.css";
-import "@fontsource/barlow-condensed/700.css";
 import "react-tooltip/dist/react-tooltip.css";
 import { Link } from "react-router-dom";
 import { Tooltip } from "react-tooltip";
