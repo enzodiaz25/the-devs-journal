@@ -3,8 +3,13 @@ import "react-tooltip/dist/react-tooltip.css";
 import { Link } from "react-router-dom";
 import { Tooltip } from "react-tooltip";
 import { ReactComponent as HeaderIllustration } from "../../assets/images/headerIllustration.svg";
+import switchPrimaryColor from "../../helpers/switchPrimaryColor";
 
 export default function HomeHeader() {
+  const handleIllustrationClick = () => {
+    switchPrimaryColor();
+  };
+
   return (
     <header className="home-header">
       <div className="home-header__hero">
@@ -29,9 +34,9 @@ export default function HomeHeader() {
           failures.
         </p>
       </div>
-      <div className="home-header__image">
+      <button onClick={handleIllustrationClick} className="home-header__image">
         <HeaderIllustration />
-      </div>
+      </button>
     </header>
   );
 }

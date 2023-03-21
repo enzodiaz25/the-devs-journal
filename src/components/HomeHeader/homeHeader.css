@@ -44,5 +44,9 @@
 
   .home-header__image {
     display: block;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
   }
 }
