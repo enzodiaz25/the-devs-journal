@@ -1,6 +1,5 @@
 .app-layout * {
-  transition: color 0.3s ease-in-out;
-  transition: fill 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out, fill 0.3s ease-in-out;
 }
 
 .app-layout__overlay-background {

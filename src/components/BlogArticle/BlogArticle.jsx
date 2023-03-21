@@ -3,6 +3,9 @@ import "./blogArticle.css";
 export default function BlogArticle() {
   return (
     <article className="blog-article">
+      <div className="blog-article__header-image">
+        <img src="/images/article-image-sample.jpg" />
+      </div>
       <h1>
         This is some interesting text that perfectly summarizes the article
       </h1>
