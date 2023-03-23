@@ -3,7 +3,6 @@
 }
 
 .app-layout__overlay-background {
-  display: none;
   position: absolute;
   width: 400px;
   height: 400px;
@@ -20,33 +19,53 @@
 }
 
 .app-layout__overlay-background--top-left {
-  top: 0;
-  left: 0;
+  display: none;
 }
 
 .app-layout__overlay-background--middle-right {
   right: 0;
-  bottom: 25%;
+  max-width: 120px;
+  bottom: 10%;
 }
 
 .app-layout__overlay-background--bottom-left {
   left: 0;
-  bottom: -200px;
+  bottom: 40px;
+  max-width: 125px;
 }
 
-@media (min-width: 576px) {
-  .app-layout__overlay-background {
-    display: block;
-  }
-}
 .app-layout {
-  backdrop-filter: blur(5px);
   padding: 18px;
 }
 
 @media (min-width: 576px) {
   .app-layout {
     padding: 0 60px;
+  }
+}
+
+@media (min-width: 768px) {
+  .app-layout {
+    backdrop-filter: blur(5px);
+  }
+
+  .app-layout__overlay-background {
+    display: block;
+  }
+
+  .app-layout__overlay-background--top-left {
+    top: 0;
+    left: 0;  
+  }
+  
+  .app-layout__overlay-background--middle-right {
+    bottom: 25%;
+    max-width: 100%;
+  }
+  
+  .app-layout__overlay-background--bottom-left {
+    bottom: -200px;
+    max-width: 100%;
   }
 }
 
