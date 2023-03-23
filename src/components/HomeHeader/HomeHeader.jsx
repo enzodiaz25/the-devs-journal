@@ -1,4 +1,5 @@
 import "./homeHeader.css";
+import "./animatedHeaderIllustration.css";
 import "react-tooltip/dist/react-tooltip.css";
 import { Link } from "react-router-dom";
 import { Tooltip } from "react-tooltip";
