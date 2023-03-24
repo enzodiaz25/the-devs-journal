@@ -24,18 +24,32 @@
 
 .app-layout__overlay-background--middle-right {
   right: 0;
-  max-width: 120px;
-  bottom: 10%;
+  max-width: 16%;
+  bottom: -36%;
 }
 
 .app-layout__overlay-background--bottom-left {
   left: 0;
-  bottom: 40px;
-  max-width: 125px;
+  bottom: -30%;
+  max-width: 20%;
 }
 
 .app-layout {
   padding: 18px;
+}
+
+@media (min-width: 500px) {
+  .app-layout__overlay-background--middle-right {
+    right: 0;
+    max-width: 120px;
+    bottom: 10%;  
+  }
+  
+  .app-layout__overlay-background--bottom-left {
+    left: 0;
+    bottom: 40px;
+    max-width: 125px;  
+  }
 }
 
 @media (min-width: 576px) {
