@@ -9,3 +9,9 @@ export const LIGHT_PRIMARY_COLORS = [
     "#8ea546", "#a57f46", "#a54646",
     "#4682a5", "#a54670"
 ]
+
+export const SOCIAL_MEDIA_URLS = {
+    linkedin: "https://www.linkedin.com/in/enzo-rodrigo-diaz/",
+    twitter: "https://twitter.com/enzord01",
+    github: "https://github.com/enzodiaz25"
+}

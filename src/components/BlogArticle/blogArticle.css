@@ -1,5 +1,6 @@
 .blog-article {
     margin-top: 100px;
+    padding-bottom: 20px;
 }
 
 .blog-article__time {
@@ -8,11 +9,15 @@
     font-family: var(--content-font);
 }
 
-.blog-article__content p {
-    font-family: "Montserrat";
-    font-size: 16px;
-    line-height: 32px;
-    margin: 20px 0;
+.blog-article__content {
+    margin-bottom: 50px;
+}
+
+.blog-article__content p,
+.blog-article__content li {
+    font-family: var(--content-font);
+    font-size: var(--content-font-size);
+    line-height: var(--content-font-line);
 }
 
 .blog-article__header-image {
@@ -26,4 +31,8 @@
     width: 100%;
     object-fit: cover;
     object-position: center;
+}
+
+.blog-article__social-media {
+    justify-content: flex-end;
 }

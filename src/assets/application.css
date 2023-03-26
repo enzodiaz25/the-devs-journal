@@ -9,13 +9,16 @@ body {
 }
 
 h1 {
-  font-size: 40px;
-  color: var(--primary-color)
+  font-size: 45px;
 }
 
 h2 {
-  font-size: 24px;
-  font-weight: 500;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 28px
 }
 
 p,
@@ -39,7 +42,7 @@ time {
   font-family: "Montserrat";
 }
 
-p, span, a {
+p, span, a, li, i {
   color: var(--gray);
 }
 

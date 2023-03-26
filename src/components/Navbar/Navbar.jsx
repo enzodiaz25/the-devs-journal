@@ -23,7 +23,7 @@ export default function Navbar({ className }) {
       </Link>
       <ul className="navbar__links-list">
         <li>
-          <Link className="link navbar__item" to="/about">
+          <Link className="link navbar__item" to="/about_me">
             About
           </Link>
         </li>

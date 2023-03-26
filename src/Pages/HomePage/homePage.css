@@ -4,16 +4,33 @@
 
 .home-page__blog-section {
   margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.home-page__social-media {
+  justify-content: flex-end;
+  padding: 20px 0;
+}
+
+.home-page__footer {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.home-page__footer__ownership-statement {
+  margin-top: 0;
+  padding-bottom: 60px
 }
 
 @media (min-width: 576px) {
-  .home-page__article-card {
-    margin-bottom: 0px;
+  .home-page__blog-section {
+    grid-gap: 30px;
   }
 
-  .home-page__blog-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 30px;
+  .home-page__article-card {
+    margin-bottom: 0px;
   }
 }

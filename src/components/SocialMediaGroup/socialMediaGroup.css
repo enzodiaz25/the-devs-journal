@@ -1,0 +1,10 @@
+.social-media {
+    display: flex;
+    gap: 15px;
+    color: var(--gray);
+    font-size: 40px;
+}
+
+.social-media__link:hover {
+    color: var(--font-color);
+}
