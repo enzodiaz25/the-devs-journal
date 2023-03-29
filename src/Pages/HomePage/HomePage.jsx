@@ -1,7 +1,7 @@
 import "./homePage.css";
-import HomeHeader from "../../components/HomeHeader/HomeHeader";
-import BlogArticleCard from "../../components/BlogArticleCard/BlogArticleCard";
-import SocialMediaGroup from "../../components/SocialMediaGroup/SocialMediaGroup";
+import HomeHeader from "../../components/molecules/HomeHeader";
+import BlogArticleCard from "../../components/molecules/BlogArticleCard";
+import SocialMediaGroup from "../../components/atoms/SocialMediaGroup";
 
 export default function HomePage() {
   return (

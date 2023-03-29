@@ -1,6 +1,6 @@
 import ZoeTheCat from "../../assets/images/zoeTheCat.png";
-import Heading from "../../components/Headings/Heading";
-import SocialMediaGroup from "../../components/SocialMediaGroup/SocialMediaGroup";
+import Heading from "../../components/atoms/Heading";
+import SocialMediaGroup from "../../components/atoms/SocialMediaGroup";
 
 export default function AboutMePage() {
   return (
