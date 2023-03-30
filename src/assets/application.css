@@ -26,23 +26,36 @@ span {
   font-size: 20px;
 }
 
-p,
-span,
 h1,
 h2,
 h3,
-h4,
-a,
-time {
+h4 {
   font-family: "Barlow Condensed";
-  color: var(--font-color)
 }
 
-time {
+a,
+span,
+p,
+time,
+label,
+button {
   font-family: "Montserrat";
 }
 
-p, span, a, li, i {
+h1,
+h2,
+h3,
+h4 {
+  color: var(--font-color)
+}
+
+p,
+span,
+a,
+li,
+i,
+time,
+label {
   color: var(--gray);
 }
 

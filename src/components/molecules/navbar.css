@@ -8,11 +8,13 @@
 .navbar__links-list {
   list-style: none;
   display: flex;
+  align-items: center;
   gap: 40px;
   margin: 0;
 }
 
 .navbar__item {
+  font-family: var(--main-font);
   display: inline-block;
 }
 

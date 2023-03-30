@@ -1,0 +1,26 @@
+.labeled-text-input input {
+  padding: 10px;
+  background-color: var(--body-bg);
+  border: 1px solid var(--gray);
+  border-radius: 6px;
+  color: var(--gray);
+  min-width: 100px;
+  box-sizing: border-box;
+  transition: box-shadow 0.1s ease-in-out, border-color 0.1s ease-in-out;
+  outline: none;
+}
+
+.labeled-text-input--glow:focus {
+  border-color: var(--input-border-color-hover);
+  outline: none;
+}
+
+.labeled-text-input label {
+  display: block;
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.labeled-text-input--flow {
+  width: 100%
+}

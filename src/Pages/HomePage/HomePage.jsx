@@ -5,7 +5,7 @@ import SocialMediaGroup from "../../components/atoms/SocialMediaGroup";
 
 export default function HomePage() {
   return (
-    <div>
+    <div className="home-page">
       <HomeHeader />
       <section className="home-page__blog-section">
         <BlogArticleCard className="home-page__article-card" />

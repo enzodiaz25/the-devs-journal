@@ -1,3 +1,7 @@
+.home-page p, .home-page span {
+  font-family: var(--main-font)
+}
+
 .home-page__article-card {
   margin-bottom: 30px;
 }

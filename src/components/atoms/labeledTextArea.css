@@ -1,0 +1,28 @@
+.labeled-text-area label {
+  display: block;
+  font-size: var(--default-label-size);
+  color: var(--gray);
+  margin-bottom: 6px;
+}
+
+.labeled-text-area__text-area {
+  padding: 10px;
+  background-color: var(--body-bg);
+  border: 1px solid var(--gray);
+  border-radius: 6px;
+  color: var(--gray);
+  min-height: 240px;
+  min-width: 100px;
+  box-sizing: border-box;
+  outline: none;
+  transition: box-shadow 0.1s ease-in-out, border-color 0.1s ease-in-out;
+}
+
+.labeled-text-area__text-area--glow:focus {
+  border-color: var(--input-border-color-hover);
+  outline: none;
+}
+
+.labeled-text-area--flow {
+  width: 100%
+}

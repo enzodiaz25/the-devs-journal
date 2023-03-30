@@ -1,0 +1,46 @@
+.contact-me-section {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.contact-me-section__form__heading {
+  margin-bottom: 15px;
+}
+
+.contact-me-section__form__paragraph {
+  font: var(--content-font);
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.contact-me-section__form__field {
+  margin-bottom: 15px
+}
+
+.contact-me-section__form__submit {
+  margin: 25px 0;
+}
+
+.contact-me-section__form__social-media {
+  justify-content: flex-end;
+}
+
+.contact-me-section__illustration {
+  max-width: 100%;
+}
+
+
+@media (min-width: 960px) {
+  .contact-me-section {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 50px;
+  }
+
+  /* .contact-me-section__form {
+    max-width: 400px;
+  } */
+}

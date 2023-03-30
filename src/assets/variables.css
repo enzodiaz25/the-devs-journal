@@ -1,20 +1,34 @@
 :root {
-  /* fonts */
+  /* font families */
   --main-font: "Barlow Condensed";
-  --content-font: "Montserrat";
-  
+  --content-font-family: "Montserrat";
+
   /* sizes */
   --content-font-size: 16px;
   --content-font-line: 32px;
+  --default-label-size: 13px;
+
+  /* font shorthands */
+  --content-font: var(--content-font-size) /var(--content-font-line) var(--content-font-family)
 }
 
+/* themes */
 .light-mode {
   /* colors */
   --body-bg: white;
   --font-color: #1c1e26;
   --primary-color: #a54670;
+  --secondary-color: #21A2AE;
   --gray: #6b7280;
   --article-card-border-color: rgb(28, 30, 38, 0.13);
+  --button-color: var(--primary-color);
+  --button-color-hover: var(--primary-color);
+  --button-bg-color: rgb(165, 70, 112, 0.15);
+  --button-bg-color-hover: rgb(165, 70, 112, 0.30);
+  --input-border-color-hover: var(--secondary-color);
+
+  /* layout specifics */
+  --app-layout-blur: blur(2px)
 }
 
 .dark-mode {
@@ -23,5 +37,15 @@
   --font-color: #ffffff;
   --gray: #C9C9C9;
   --primary-color: #BE5E88;
+  --secondary-color: #21A2AE;
   --article-card-border-color: rgb(255, 255, 255, 0.13);
+  --button-color: var(--gray);
+  --button-color-hover: var(--gray);
+  --button-bg-color: rgb(165, 70, 112, 0.15);
+  --button-bg-color-hover: rgb(165, 70, 112, 0.50);
+  --input-border-color-hover: var(--secondary-color);
+
+
+  /* layout specifics */
+  --app-layout-blur: blur(5px)
 }

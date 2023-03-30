@@ -6,7 +6,6 @@
 .blog-article__time {
     display: block;
     margin-bottom: 40px;
-    font-family: var(--content-font);
 }
 
 .blog-article__content {
@@ -15,9 +14,7 @@
 
 .blog-article__content p,
 .blog-article__content li {
-    font-family: var(--content-font);
-    font-size: var(--content-font-size);
-    line-height: var(--content-font-line);
+    font: var(--content-font)
 }
 
 .blog-article__header-image {
