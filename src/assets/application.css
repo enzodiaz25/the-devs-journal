@@ -26,6 +26,11 @@ span {
   font-size: 20px;
 }
 
+input,
+textarea {
+  font-size: 14px;
+}
+
 h1,
 h2,
 h3,
@@ -38,7 +43,9 @@ span,
 p,
 time,
 label,
-button {
+button,
+input,
+textarea {
   font-family: "Montserrat";
 }
 
